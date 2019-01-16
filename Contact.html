@@ -1,0 +1,203 @@
+<!-- head section begin -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Di-Yang Xue's Contact Page</title>
+<style type="text/css" media="screen">@import url( style.css );</style>
+<style>
+#map {
+        height: 400px;
+        width: 800px;
+        margin: 0px auto;
+       }
+</style>
+</head>
+<!-- head section ends -->
+
+<!-- body section begin -->
+<body>
+<div id="main" style="width: 800px; margin: 0px auto;">
+<!-- first table -->
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="30"></td><!-- row 1_1 column 1-->
+	<td valign="top"> <!-- row 1_1 COLUMN 2 = Diyang 's picture   -->
+		<img border="0" src="photo/head3.jpg" alt="head shot of me" width="200" height="200">
+    </td>
+    
+    <td width="30"></td><!-- row 1_2 column 1-->
+    
+    <td width="500">   <!-- row 1_2 COLUMN 2 = Diyang 's info -->
+    	<p>
+        <h2><b>Di-Yang Xue(薛递洋)</b></h2><br>
+        Ph.D. student, <a href="http://www.isp.pitt.edu/" target="_blank">Intelligent Systems Program</a><br>  
+        <a href="https://sci.pitt.edu/" target="_blank">School of Computing and Information</a>,
+        <a href="http://www.pitt.edu/" target="_blank"> University of Pittsburgh</a>.<br>
+		Email: dix2 at pitt dot edu
+        </p>
+    </td>
+    
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td>
+<table> <!-- ROW 2 **************************************************** -->
+<tr>
+	<td width="100">
+	</td>
+	<td valign="center"> <!-- ************* Links  -->
+		<hr size=1 align="left">
+		<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Projects.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Publications.html">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="News.html">News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://drive.google.com/file/d/164tU5_kZTD6UHp2fz2LS61CCzGyVupSU/view?usp=sharing" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<!-- <a href="projects.htm">Projects</a> -->
+        <hr size=1 align="left">
+	</td>
+</tr>
+</table>   
+</td>
+</tr>
+
+<h3><b>Contact Information</b></h3>
+<b>Email:</b> dix2 at pitt dot edu
+<br><br>
+<b>Meeting Request:</b> <a href="https://doodle.com/diyang" target="_blank"> https://doodle.com/diyang</a><br>
+<br><br>
+<b>Office address:</b><br>
+Cubicle 437K<br>
+Department of Biomedical Informatics<br>
+5607 Baum Blvd<br>
+Pittsburgh, PA, 15206<br>
+<br><br>
+<!--places i have been       https://www.amcharts.com/visited_countries/ , only update visited countries id    -->
+<!--my visited countries -->
+<a href="https://www.amcharts.com/visited_countries/"><b>My visited countries map</b></a>
+<table>
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 1000px; height: 450px;"></div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#FFFFFF",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "US",
+		"showAsSelected": true
+	},
+	{
+		"id": "CN",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#6BE06F",
+colorSolid : "#F71E0F",
+selectedColor : "#F71E0F",
+outlineColor : "#080808",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+
+</table>
+
+
+
+<!--my visited states only update visited states id-->
+<a href="https://www.amcharts.com/visited_states/"><b>My visited states map</b></a>
+<table>
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/usaHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js" type="text/javascript"></script>
+<div id="mapdiv2" style="width: 1000px; height: 450px;"></div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv2",{
+type: "map",
+theme: "dark",
+panEventsEnabled : true,
+backgroundColor : "#FFFFFF",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "usaHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "US-CA",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-CT",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-DC",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-FL",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-MA",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-NJ",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-NY",
+		"showAsSelected": true
+	},
+	{
+		"id": "US-PA",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#6BE06F",
+colorSolid : "#F71E0F",
+selectedColor : "#F71E0F",
+outlineColor : "#080808",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+
+</table>
+
+
+
+</div>
+</body></html>

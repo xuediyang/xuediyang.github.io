@@ -1,0 +1,177 @@
+<!-- head section begin -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Di-Yang Xue's Project Page</title>
+<style type="text/css" media="screen">@import url( style.css );</style>
+<style>
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1cm;
+    margin-right: 0;
+}
+
+</style>
+</head>
+<!-- head section ends -->
+
+<!-- body section begin -->
+<body>
+<div id="main" style="width: 800px; margin: 0px auto;">
+<!-- first table -->
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="30"></td><!-- row 1_1 column 1-->
+	<td valign="top"> <!-- row 1_1 COLUMN 2 = Diyang 's picture   -->
+		<img border="0" src="photo/head3.jpg" alt="head shot of me" width="200" height="200">
+    </td>
+    
+    <td width="30"></td><!-- row 1_2 column 1-->
+    
+    <td width="500">   <!-- row 1_2 COLUMN 2 = Diyang 's info -->
+    	<p>
+        <h2><b>Di-Yang Xue(薛递洋)</b></h2><br>
+        Ph.D. student, <a href="http://www.isp.pitt.edu/" target="_blank">Intelligent Systems Program</a><br>  
+        <a href="https://sci.pitt.edu/" target="_blank">School of Computing and Information</a>,
+        <a href="http://www.pitt.edu/" target="_blank"> University of Pittsburgh</a>.<br>
+		Email: dix2 at pitt dot edu
+        </p>
+    </td>
+    
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td>
+<table> <!-- ROW 2 **************************************************** -->
+<tr>
+	<td width="100">
+	</td>
+	<td valign="center"> <!-- ************* Links  -->
+		<hr size=1 align="left">
+		<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Projects.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Publications.html">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="News.html">News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://drive.google.com/file/d/164tU5_kZTD6UHp2fz2LS61CCzGyVupSU/view?usp=sharing" target="_blank">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<!-- <a href="projects.htm">Projects</a> -->
+        <hr size=1 align="left">
+	</td>
+</tr>
+</table>   
+</td>
+</tr>
+
+<h3><b>Project: Heart Failure Readmission Prediction</b></h3>
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="100"></td>
+	<td valign="top"> 
+		<img border="0" src="photo/readmission.jpg" alt="readmission photo" width="600" height="352">
+    </td>
+    <td width="100"></td>
+ </tr>
+</table>
+</td>
+</tr>   
+
+<p>
+Readmission is an admission to a hospital within 30 days of a discharge from the same or another hospital. <br><br>
+Readmission rate is one of the key indicators of hospitals care quality.<br><br>
+To improve hospital quality of care, starting in 2012, the Centres for Medicare and Medicaid Services (CMS) started to financially penalize hospitals with excessive 30-day readmissions
+<br><br>
+We collected data from 14 hospitals in the University of Pittsburgh Medical Centre(UPMC) Health System. We included six types of data in our study: Demographic information, Healthcare utilization information, 
+Diagnosis information, Laboratory results, Medication during a patient’s hospital stay, and Narrative clinician reports.
+<br><br>
+We developed one Naïve Bayes risk assessment predictive model and compared it with two commonly used readmission-prediction methods: the HOSPITAL score method and the LACE score method.Our model had a good discriminatory power 
+(AUROC 0.650), and its performance was significantly better than the HOSPITAL score method and LACE score method 
+<br><br>
+<a href="http://www.engineering.pitt.edu/Sub-Sites/Programs/Coulter/Projects/2014---SHARP/" target="_blank" >Similar models</a> are being used in Children's Hospital of Pittsburgh of UPMC.
+
+</p>
+    
+
+
+<h3><b>Project: classification of positive valence system symptom severity</b></h3>
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="100"></td>
+	<td valign="top"> 
+		<img border="0" src="photo/positive valence system severity.png" alt="positive valence system severity photo" width="600" height="199">
+    </td>
+    <td width="100"></td>
+</tr>
+</table>
+</td>
+</tr>    
+ 
+<p>
+The track 2 of the <a href="https://www.i2b2.org/NLP/RDoCforPsychiatry/" target="_blank" >2016 CEGS N-GRID challenge</a> is to classify mental disorders based on initial psychiatric evaluation records.<br><br>
+We derived question-answer features and UMLS concept features(by MedLEE) from the initial reports, and built two decision tree models and one Bayesian network model.<br><br>
+I built two decision tree modles with the "rpartScore" package, and the macro average-inverse normalized mean absolute error score are 82.56% and 82.18%.<br><br>
+There were 24 participating teams, 65 valid submitted runs, we got the 4th place and was invited to publish<a href="https://www.ncbi.nlm.nih.gov/pubmed/28571784" target="_blank"> one paper</a> on <i>Journal of Biomedical Informatics</i>.
+</p>
+
+<h3><b>Project: predicting clinical outcomes using high-dimensional genomic datasets</b></h3>
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="100"></td>
+	<td valign="top"> 
+		<img border="0" src="photo/compare1.jpg" alt="compare1 photo" width="600" height="292">
+        <img border="0" src="photo/compare2.jpg" alt="compare1 photo" width="600" height="292">
+    </td>
+    <td width="100"></td>
+</tr>
+</table>
+</td>
+</tr> 
+<p>
+We evaluated the performance of eight methods using high-dimensional discrete genomic datasets.<br><br>
+Eight methods: naive Bayes(NB), model averaging NB(MANB), feature selection NB(FSNB), efficient Bayesian multivariate classifier(EBMC), logistic regression(LR), support vector machines(SVM), lasso, and extreme learning machines(ELM)
+<br><br>
+Datasets: one hundred 1000-single nucleotide polymorphism(SNP) simulated datasets, ten 10000-SNP datasets, six semi-synthetic sets, and two real genome-wide association studies(GWAS) datasets.<br><br>
+Results: In fivefold cross-validation studies, the SVM performed best on the 1000-SNP datasets, while the BN-based methods performed best on the other datasets, with EBMC performed best.<br><br>
+I runed all the experiments except ELM method. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24737607" target="_blank"> The result</a> is published on <i>Journal of the American Medical Informatics Association</i>.
+</p>
+
+
+<h3><b>Project: predicting patient survivorship using Efficient Bayesian Network Learning</b></h3>
+<tr>
+<td>
+<table> 
+<tr>	
+	<td width="100"></td>
+	<td valign="top"> 
+		<img border="0" src="photo/survival.png" alt="survival photo" width="600" height="377">
+    </td>
+    <td width="100"></td>
+</tr>
+</table>
+</td>
+</tr> 
+<p>
+The purpose of this project is to develop and evaluate a new Bayesian network (BN)-based patient survivorship prediction method. <br><br>
+We developed EBMC_Survivorship (EBMC_S), which predicts survivorship for each year individually. EBMC_S is based on the EBMC BN algorithm, which has been shown to handle high-dimensional data.<br> <br>
+In this study, we evaluate EBMC_S using the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC) dataset, which concerns breast tumors.<br><br>
+A 5-fold cross-validation study indicates that EMBC_S performs better than the Cox proportional hazard 
+model and is comparable to the random survival forest method. <br><br>
+We show that EBMC_S provides additional information such as sensitivity analyses, which covariates predict each year, and yearly areas under the ROC 
+curve (AUROCs).<br><br>
+I runed all the experiments. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24558297" target="_blank"> The result</a> is published on <i>Cancer Informatics</i>.
+</p>
+</div>
+</body>
+</html>
